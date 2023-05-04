@@ -1,6 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  
+  <PropertyGroup>
     <Description>Pomelo's MySQL database provider for Entity Framework Core.</Description>
     <TargetFramework>$(DefaultNetStandardTargetFramework)</TargetFramework>
     <MinClientVersion>3.6</MinClientVersion>

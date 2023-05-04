@@ -1,11 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <PackageId>Autocab.Pomelo.EntityFrameworkCore.MySql</PackageId>
+
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   
   <PropertyGroup>
-    <Description>Pomelo's MySQL database provider for Entity Framework Core.</Description>
+    <Description>Autocab modified Pomelo's MySQL database provider for Entity Framework Core.</Description>
     <TargetFramework>$(DefaultNetStandardTargetFramework)</TargetFramework>
     <MinClientVersion>3.6</MinClientVersion>
     <AssemblyName>Pomelo.EntityFrameworkCore.MySql</AssemblyName>
@@ -16,6 +18,8 @@
 
   <PropertyGroup>
     <MSBuildWarningsAsMessages>$(MSBuildWarningsAsMessages);$(NoWarn)</MSBuildWarningsAsMessages>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Product>Autocab.Pomelo.EntityFrameworkCore.MySql</Product>
   </PropertyGroup>
 
   <ItemGroup>
@@ -33,7 +37,7 @@
   </ItemGroup>
 
   <ItemGroup Condition="'$(LocalMySqlConnectorRepository)' == ''">
-    <PackageReference Include="MySqlConnector" Version="$(MySqlConnectorVersion)" />
+    <PackageReference Include="MySqlConnector" Version="2.1.8" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(LocalPomeloJsonObjectRepository)' != ''">

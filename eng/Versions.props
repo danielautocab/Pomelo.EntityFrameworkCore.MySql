@@ -36,7 +36,7 @@
     <PomeloJsonObjectVersion>2.2.1</PomeloJsonObjectVersion>
     <MicrosoftExtensionsCachingMemoryVersion>3.1.8</MicrosoftExtensionsCachingMemoryVersion>
     <MicrosoftExtensionsDependencyInjection>3.1.8</MicrosoftExtensionsDependencyInjection>
-    <SystemDiagnosticsDiagnosticSourceVersion>4.7.1</SystemDiagnosticsDiagnosticSourceVersion>
+    <SystemDiagnosticsDiagnosticSourceVersion>5.0.0.1</SystemDiagnosticsDiagnosticSourceVersion>
     <MicrosoftExtensionsLoggingVersion>3.1.8</MicrosoftExtensionsLoggingVersion>
     <MicrosoftBclAsyncInterfacesVersion>1.1.1</MicrosoftBclAsyncInterfacesVersion>
     <MicrosoftBclHashCodeVersion>1.1.0</MicrosoftBclHashCodeVersion>

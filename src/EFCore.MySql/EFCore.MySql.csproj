@@ -37,7 +37,7 @@
   </ItemGroup>
 
   <ItemGroup Condition="'$(LocalMySqlConnectorRepository)' == ''">
-    <PackageReference Include="MySqlConnector" Version="2.1.8" />
+    <PackageReference Include="MySqlConnector" Version="2.2.6" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(LocalPomeloJsonObjectRepository)' != ''">
